@@ -8,6 +8,7 @@
   import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
   import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
+  import Doors from './lib/Doors.svelte';
 </script>
 
 <main>

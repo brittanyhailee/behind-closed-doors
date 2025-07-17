@@ -1,8 +1,8 @@
-<script>
-    import TitleCard from "../lib/TitleCard.svelte";
+<script lang="ts">
+    import Doors from "../lib/Doors.svelte";
     
-    const title = "Welcome to the KWK Scrollytelling Template";
-    const subtitle = "A journey through data, creativity, and code";
+    const title = "Behind Closed Doors";
+    const subtitle = "How Loan Denials Lock Out Black Homebuyers";
 </script>
 
-<TitleCard {title} {subtitle} />
+<Doors {title} {subtitle} />
