@@ -1,6 +1,7 @@
 <script>
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
   import RightAlignedExample from "./sections/RightAlignedExample.svelte";
+  import RightAligned from "./sections/RightAligned_1.svelte";
   import ImageExample from "./sections/ImageExample.svelte";
   import TitleSection from "./sections/TitleSection.svelte";
   import InteresectionObserverBasicExample from "./sections/InteresectionObserverBasicExample.svelte";
@@ -13,13 +14,13 @@
 
 <main>
   <TitleSection />
-  <RightAlignedExample />
-  <LeftAlignedExample />
+  <RightAligned />
+  <!--<LeftAlignedExample />
   <ImageExample />
 
   <IntersectionObserverSectionCard />
   <InteresectionObserverBasicExample />
   <IntersectionObserverAlertExample />
   <DisappearingDuckExample />
-  <IntersectionObserverListExample />
+  <IntersectionObserverListExample /> -->
 </main>
