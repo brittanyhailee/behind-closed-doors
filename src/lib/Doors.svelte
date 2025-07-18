@@ -29,15 +29,27 @@
     top: 0;
     width: 50%;
     height: 100%;
-    background: black; 
+    /* background: black;  */
+    background: #3a281e;
+
     z-index: 10;
     transition: transform 0.5s ease-out;
   }
   .left-door {
     left: 0;
+    background-image: url('/left-door.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
   }
   .right-door {
     right: 0;
+    background-image: url('/right-door.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
   }
   .content {
     position: relative;

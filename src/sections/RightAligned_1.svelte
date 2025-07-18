@@ -8,6 +8,7 @@
     import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
+    import RippedPaper2 from '../lib/RippedPaper2.svelte';
 
 
 </script>
@@ -44,11 +45,13 @@
                 <!-- Homeownership is crucial in accumulating wealth through investments.  -->
             </RippedPaper>
 
-            <ArticleText>
-                However, owning a home is more difficult for others.
-            </ArticleText>
+            <RippedPaper2>
+                However, for Black communities, the experience of being able to call a place 'home' is 
+                a dream higher to reach.
+            </RippedPaper2>
+            
 
-            <ArticleText>
+            <!-- <ArticleText>
                 You can use this template as a <strong>starting point</strong>
                 for your project.
                 <br /><br />
@@ -64,7 +67,7 @@
                     If you use this template, be sure to modify it and make it
                     your own!
                 </strong>
-            </ArticleText>
+            </ArticleText> -->
         {/snippet}
     </Scroller>
 </div>

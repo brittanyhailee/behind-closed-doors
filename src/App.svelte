@@ -10,14 +10,15 @@
   import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import Doors from './lib/Doors.svelte';
+  import LeftAligned_1 from "./sections/LeftAligned_1.svelte";
 </script>
 
 
 <main>
   <TitleSection />
   <RightAligned />
-  <!--<LeftAlignedExample />
-  <ImageExample />
+  <LeftAligned_1 />
+  <!-- <ImageExample />
 
   <IntersectionObserverSectionCard />
   <InteresectionObserverBasicExample />
