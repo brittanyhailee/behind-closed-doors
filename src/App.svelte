@@ -12,6 +12,7 @@
   import Doors from './lib/Doors.svelte';
 </script>
 
+
 <main>
   <TitleSection />
   <RightAligned />

@@ -74,6 +74,7 @@
         {#snippet sticky()}
             <div class="chart">
                 <Chart {options} highcharts={Highcharts} />
+                
             </div>
             <p>
                 Here's an example chart using

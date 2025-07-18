@@ -20,6 +20,7 @@
   
     <Scroller layout="right">
         {#snippet sticky()}
+            <img src="./house.svg" alt="Drawing of a home"/>
           
             <p>
                 The configuration is done through the
@@ -39,12 +40,12 @@
         {#snippet scrolly()}
             <RippedPaper>
                 After a long day, don't we think: "I can't wait to get home"?
+                <br>After all, a home provides comfort and security.
                 <!-- Homeownership is crucial in accumulating wealth through investments.  -->
             </RippedPaper>
 
             <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
+                However, owning a home is more difficult for others.
             </ArticleText>
 
             <ArticleText>
