@@ -11,7 +11,7 @@
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import Doors from './lib/Doors.svelte';
   import LeftAligned_1 from "./sections/LeftAligned_1.svelte";
-  import DoorsImg from '../public/door.svg'
+  import DoorsImg from '/house.svg'
 </script>
 
 <svelte:head>
