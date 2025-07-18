@@ -27,10 +27,10 @@
     }
 
     .left .scrolly {
-        order: 1;
+        order: 0;
     }
     .left .sticky {
-        order: 0;
+        order: 1;
     }
 
     .right .scrolly {

@@ -22,20 +22,7 @@
     <Scroller layout="right">
         {#snippet sticky()}
             <img src="./house.svg" alt="Drawing of a home"/>
-          
-            <p>
-                The configuration is done through the
-                <code>options</code> json object passed to the chart, which you'll
-                see in the source code for this template.
-            </p>
-            <p>
-                Use the
-                <a href="https://api.highcharts.com/highcharts/"
-                    >API reference</a
-                >
-                to understand what each element in the <code>options</code> object
-                does.
-            </p>
+
         {/snippet}
 
         {#snippet scrolly()}

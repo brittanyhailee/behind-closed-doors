@@ -4,7 +4,8 @@
     import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
-    import dollar from '../../public/dollar.png';
+    import dollar from '../../public/dollar-sign.gif';
+  import { fly } from "svelte/transition";
 
 </script>
 
@@ -46,27 +47,16 @@
     .dollar {
         height: 400px;
         width: 200px;
-    }
-    .chart {
-        width: 90%;
-        margin: 0px auto;
-    }
 
-    .toggle-button {
-        margin: 20px;
-        padding: 20px;
-        color: #007052;
-        background-color: #0bd956;
-        border: solid 2px #007052;
-        border-radius: 16px;
-        font-size: large;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        box-shadow: 0 4px 0 #007052;
     }
+    /* .sticky {
+        position: sticky;
+        top: 50vh;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+    } */
 
-    .toggle-button:active {
-        transform: translateY(2px);
-        box-shadow: 0 2px 0 #007052;
-    }
 </style>
