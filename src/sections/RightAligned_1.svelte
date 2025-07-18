@@ -21,7 +21,7 @@
   
     <Scroller layout="right">
         {#snippet sticky()}
-            <img src="./house.svg" alt="Drawing of a home"/>
+            <img style="width:400px;"src="./house.svg" alt="Drawing of a home"/>
 
         {/snippet}
 
@@ -33,8 +33,8 @@
             </RippedPaper>
 
             <RippedPaper2>
-                However, for Black communities, the experience of being able to call a place 'home' is 
-                a dream higher to reach.
+                However, for Black communities, to experience calling a place 'home' is 
+                a dream further out of reach.
             </RippedPaper2>
             
 
