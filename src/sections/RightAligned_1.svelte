@@ -33,7 +33,7 @@
             </RippedPaper>
 
             <RippedPaper2>
-                However, for Black communities, to experience calling a place 'home' is 
+                For Black homebuyers, however, the experience of calling a place 'home' is 
                 a dream further out of reach.
             </RippedPaper2>
             

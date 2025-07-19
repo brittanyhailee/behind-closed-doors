@@ -5,7 +5,8 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import dollar from '../../public/dollar-sign.gif';
-  import { fly } from "svelte/transition";
+    import RippedPaper from "../lib/RippedPaper.svelte";
+    import { fly } from "svelte/transition";
 
 </script>
 
@@ -17,28 +18,16 @@
         {/snippet}
 
         {#snippet scrolly()}
-            <ArticleText>
-                You might notice that this basic template doesn't have certain
-                features that are common in scrollytelling.
-            </ArticleText>
+            <RippedPaper>
+                Homes are costly, and loans significantly make it possible to 
+                purchase one as they allow buyers to pay a portion of the cost, 
+                with the loan helping to pay for the rest. 
+            </RippedPaper>
 
-            <ArticleText>
-                For example, you might want a component that doesn't feature a
-                sticky component at all. Or a component that is solely a sticky
-                component.
-            </ArticleText>
-
-            <ArticleText>
-                You might also want to add more interactivity or gamify parts of
-                your scrollytelling piece.
-            </ArticleText>
-
-            <ArticleText>
-                <strong>
-                    It's up to you to research how to create the effects and
-                    functionality that you envision!
-                </strong>
-            </ArticleText>
+            <RippedPaper>
+                Thus, these loans are key to achieving homeownership, and 
+                whether they're approved or denied can make all the difference.
+            </RippedPaper>
         {/snippet}
     </Scroller>
 </div>

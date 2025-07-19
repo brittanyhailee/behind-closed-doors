@@ -33,7 +33,7 @@
     }
 
     .text {
-        width: 200px;
+        width: 240px;
         margin: 0;
         align-self: center;
         font-family: "Special Elite";

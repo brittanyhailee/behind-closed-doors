@@ -16,6 +16,7 @@
 
 <style>
     .wrapper {
+        overflow: none;
         background-color: #f7f5eb;
         padding: min(100vh, 30rem) 1rem;
         border-style: solid;
@@ -24,13 +25,14 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
+        
     }
 
     .left .scrolly {
-        order: 1;
+        order: 0;
     }
     .left .sticky {
-        order: 0;
+        order: 1;
     }
 
     .right .scrolly {
@@ -78,6 +80,14 @@
 
         .sticky {
             margin-bottom: 2rem;
+        }
+
+
+        .left .scrolly {
+        order: 1;
+        }
+        .left .sticky {
+            order: 0;
         }
     }
 </style>
