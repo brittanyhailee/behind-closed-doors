@@ -74,12 +74,40 @@
         /* z-index: 2; */
         justify-content: center;
 
-        margin-right: 142px; 
+        margin-right: 145px; 
         font-size: clamp(12px, 2vw, 20px);
+    }
+
+    @media (max-width: 900px) {
+        .content {
+            font-size: 18px;
+        }
     }
 
 
     @media (max-width: 768px) {
+        .content {
+            font-size: 15px;
+            margin-right: 130px; 
+            /* height: 5vh; */
+            /* margin-right: 120px;  */
+            
+        }
+
+    
+    }
+    @media (max-width: 720px) {
+        .content {
+            font-size: 14px;
+            margin-right: 130px; 
+            /* height: 5vh; */
+            /* margin-right: 120px;  */
+            
+        }
+
+    
+    }
+      @media (max-width: 620px) {
         .content {
             font-size: 12px;
             margin-right: 100px; 
