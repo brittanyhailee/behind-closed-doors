@@ -1,13 +1,26 @@
 <script>
+    import { onMount } from "svelte";
+    export let callback; // add this
+    export let options; // add this
+    
+    let uniqueId = Math.random().toString();
 
-    export let content;
+    onMount(() => {
+        let intersectionObserver = new IntersectionObserver(callback, options);
+
+        const observedElement = document.getElementById(uniqueId);
+        intersectionObserver.observe(observedElement);
+    });
 </script>
 
 <div class="wrapper">
     <div class="sticky">
         <div class="scroll-container">
             <!-- {@render barChart()} -->
-            <article class="content">{content}</article>
+            <article id={uniqueId} class="content">
+                <slot/>
+            </article>
+            
         </div>
     </div>
 </div>

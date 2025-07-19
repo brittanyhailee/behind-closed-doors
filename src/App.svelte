@@ -14,7 +14,7 @@
   import DoorsImg from '/house.svg'
   import ScrollyFocus from "./lib/ScrollyDoor.svelte";
   import ScrollyDoor from "./lib/ScrollyDoor.svelte";
-  import LoanDenials from "./sections/LoanDenials.svelte";
+  import DoorIntersectionObserver from "./sections/DoorIntersectionObserver.svelte";
 </script>
 
 <svelte:head>
@@ -24,7 +24,7 @@
   <TitleSection />
   <RightAligned />
   <LeftAligned_1 />
-  <LoanDenials />
+  <DoorIntersectionObserver />
   
 
       
