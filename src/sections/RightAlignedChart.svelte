@@ -118,7 +118,7 @@
         {/snippet}
 
         {#snippet scrolly()}
-
+        <div class="wrapper">
              <ObservedArticleText {callback} {optionsThresh}>
                 <p><span style="text-decoration:underline;"><a target="_blank"
                     href="https://www.investopedia.com/articles/mortgages-real-estate/08/homebuyer-financing-option.asp">Conventional loans</a></span> are the most popular type of loan for purchasing a home.
@@ -137,12 +137,15 @@
                     <span style="text-decoration:underline;">more</span> conventional loan denials relative to their population. </p>
 
             </ObservedArticleText>
+        </div>
 
         {/snippet}
     </ScrollerColumn>
 </div>
 
 <style>
+
+  
      .chart {
         /* width: 600px; */
         width: 90%;

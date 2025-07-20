@@ -29,6 +29,7 @@
 
 <style>
     .wrapper {
+        /* overflow: hidden; */
         background-color: #f7f5eb;
         padding: min(100vh, 30rem) 1rem;
         border-style: solid;
@@ -40,6 +41,10 @@
         height: 1500px;
         font-family: "Special Elite";
         /* width: 500px; */
+    
+        /* border-color: #4096fa; */
+
+
     
     }
 
@@ -83,8 +88,8 @@
     .content {
 
         text-align: center;
-        /* width: 15vw; */
         width: 15vw;
+        /* width: 20%; */
         font-size: 20px;
         /* z-index: 2; */
         justify-content: center;
@@ -108,6 +113,11 @@
             /* margin-right: 120px;  */
             
         }
+        .wrapper {
+            padding:15rem 1rem;
+            width: 100vw;
+        }
+        
 
     
     }
@@ -118,6 +128,10 @@
             /* height: 5vh; */
             /* margin-right: 120px;  */
             
+        }
+        .wrapper {
+            padding: 15rem 1rem;
+            width: 100vw;
         }
 
     
@@ -130,6 +144,10 @@
             /* margin-right: 120px;  */
             
         }
+        .wrapper {
+        padding: 15rem 1rem;
+        width: 100vw;
+    }
 
     
     }

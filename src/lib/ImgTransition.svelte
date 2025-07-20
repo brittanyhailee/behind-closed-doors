@@ -118,13 +118,12 @@
         background-image: url('/public/ripped_paper2.png');
         background: rgba(0,0,0,0.5);
         text-align: center;
-  
-        /* right:50%; */
-        /* left:50%; */
+
 
     }
     .text-overlay p {
        align-self: center;
+       font-size: 20px;
 
     }
 
@@ -160,11 +159,48 @@
         background-color: #f7f5eb;
     }
 
+     @media (max-width: 880px) {
+        .base-image, .top-image {
+            height: 80%;
+            width: 60%;
+            margin-left: 150px;
+        }
+        .text-overlay {
+            width: 50%;
+            
+        }
+
+        .text-overlay p{ 
+            font-size: 14px;
+        }
+    }
+
     @media (max-width: 768px) {
         .base-image, .top-image {
+            height: 80%;
             width: 60%;
-            margin-left: 70px;
+            margin-left: 80px;
         }
+        .text-overlay {
+            width: 30%;
+            
+        }
+
+        .text-overlay p{ 
+            font-size: 13px;
+        }
+    }
+
+     @media (max-width: 730px) {
+        .base-image, .top-image {
+            width: 60%;
+            height: 80%;
+            margin-left: 110px;
+        }
+        .text-overlay {
+            width: 50%;
+        }
+      
     }
 
 </style>
