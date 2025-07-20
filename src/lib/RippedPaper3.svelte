@@ -17,7 +17,7 @@
         margin: 50vh auto;
         width: 60%;
         background-image: url('/ripped_paper3.png');
-        height: 20em;
+        height: 10em;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

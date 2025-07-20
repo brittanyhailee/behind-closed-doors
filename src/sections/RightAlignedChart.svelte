@@ -134,7 +134,7 @@
 
             <ObservedArticleText {callback} {optionsThresh}>
                 <p>From the data, we can observe that per 100 people, Black or African Americans experience
-                    <span style="text-decoration:underline;">more</span> conventional loan denials. </p>
+                    <span style="text-decoration:underline;">more</span> conventional loan denials relative to their population. </p>
 
             </ObservedArticleText>
 

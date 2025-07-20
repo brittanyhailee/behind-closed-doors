@@ -17,6 +17,10 @@
   import DoorIntersectionObserver from "./sections/DoorIntersectionObserver.svelte";
   import LoanDenialsColumn from "./lib/LoanDenialsColumn.svelte";
   import RightAlignedChart from "./sections/RightAlignedChart.svelte";
+  import ImgTransition from "./lib/ImgTransition.svelte";
+  import MapTransition from "./sections/MapTransition.svelte";
+
+  let title = 'hi'
 </script>
 
 <svelte:head>
@@ -31,6 +35,7 @@
   <DoorIntersectionObserver />
   <RightAlignedChart />
   
+  <MapTransition />
 
       
 
