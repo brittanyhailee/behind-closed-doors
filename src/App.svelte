@@ -15,6 +15,8 @@
   import ScrollyFocus from "./lib/ScrollyDoor.svelte";
   import ScrollyDoor from "./lib/ScrollyDoor.svelte";
   import DoorIntersectionObserver from "./sections/DoorIntersectionObserver.svelte";
+  import LoanDenialsColumn from "./lib/LoanDenialsColumn.svelte";
+  import RightAlignedChart from "./sections/RightAlignedChart.svelte";
 </script>
 
 <svelte:head>
@@ -25,6 +27,7 @@
   <RightAligned />
   <LeftAligned_1 />
   <DoorIntersectionObserver />
+  <RightAlignedChart />
   
 
       

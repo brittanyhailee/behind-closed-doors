@@ -11,12 +11,14 @@
         const observedElement = document.getElementById(uniqueId);
         intersectionObserver.observe(observedElement);
     });
+
+
 </script>
 
 <div class="wrapper">
     <div class="sticky">
         <div class="scroll-container">
-            <!-- {@render barChart()} -->
+      
             <article id={uniqueId} class="content">
                 <slot/>
             </article>

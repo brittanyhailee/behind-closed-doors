@@ -45,3 +45,12 @@
 
 
 
+<style>
+p {
+  transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+}
+
+/* p:hover {
+  transform: scale(1.2); 
+} */
+</style>

@@ -24,10 +24,10 @@
                 with the loan helping to pay for the rest. 
             </RippedPaper>
 
-            <RippedPaper>
+            <!-- <RippedPaper>
                 Thus, these loans are key to achieving homeownership, and 
                 whether they're approved or denied can make all the difference.
-            </RippedPaper>
+            </RippedPaper> -->
         {/snippet}
     </Scroller>
 </div>
