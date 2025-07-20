@@ -4,9 +4,16 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import ScrollerColumn from "../lib/ScrollerColumn.svelte";
+  import RippedPaper3 from "../lib/RippedPaper3.svelte";
+
+  import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+  import RippedPaper2 from "../lib/RippedPaper2.svelte";
 
 
     let chart;
+    const optionsThresh = {
+        threshold: [0.85, 0.95],
+    };
 
     let options = {
         chart: {
@@ -75,6 +82,20 @@
             }
         ]
     };
+
+       const callback = (entries, observer) => {
+        entries.forEach((entry) => {
+            const elem = entry.target;
+
+            if (entry.intersectionRatio >= 0.9) {
+                // "active" state
+                // elem.style.backgroundColor = "pink";
+            } else if (entry.intersectionRatio < 0.9) {
+                // "inactive" state
+                // elem.style.backgroundColor = "green";
+            }
+        });
+    };
 </script>
 
 <div>
@@ -97,33 +118,26 @@
         {/snippet}
 
         {#snippet scrolly()}
-            <ArticleText>
-                <strong>Welcome to the KWK Data Scrollytelling Template!</strong
-                >
-            </ArticleText>
 
-            <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
-            </ArticleText>
+             <ObservedArticleText {callback} {optionsThresh}>
+                <p><span style="text-decoration:underline;"><a target="_blank"
+                    href="https://www.investopedia.com/articles/mortgages-real-estate/08/homebuyer-financing-option.asp">Conventional loans</a></span> are the most popular type of loan for purchasing a home.
+                These are loans that from private lenders such as banks and credit unions. 
+                </p>
+            </ObservedArticleText>
 
-            <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
-            </ArticleText>
+            <RippedPaper2 {callback} {optionsThresh}>
+                <p>They generally have stricter requirements such as 
+                    a larger downpayment and a higher credit score.</p>
+                </RippedPaper2>
 
-            <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
-            </ArticleText>
+
+            <ObservedArticleText {callback} {optionsThresh}>
+                <p>From the data, we can observe that per 100 people, Black or African Americans experience
+                    <span style="text-decoration:underline;">more</span> conventional loan denials. </p>
+
+            </ObservedArticleText>
+
         {/snippet}
     </ScrollerColumn>
 </div>
@@ -133,13 +147,15 @@
         /* width: 600px; */
         width: 90%;
         margin: 0 auto;
-        /* top: 100px;
-        position: sticky; */
+
     }
     .chart-caption {
         width: 30vw;
         max-width: 600px;
+        font-family: sans-serif;
     }
+   
+
 
 /*     
        @media (max-width:768px) {

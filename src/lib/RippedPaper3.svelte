@@ -16,7 +16,7 @@
     .article-text {
         margin: 50vh auto;
         width: 60%;
-        background-image: url('/ripped_paper2.png');
+        background-image: url('/ripped_paper3.png');
         height: 20em;
         background-repeat: no-repeat;
         background-size: contain;

@@ -14,7 +14,7 @@
 
 <style>
     .article-text {
-        margin: 50vh auto;
+        margin: 25vh auto;
         width: 60%;
         background-image: url('/ripped_paper.png');
         height: 20em;

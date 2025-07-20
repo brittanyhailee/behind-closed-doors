@@ -2,6 +2,11 @@
     let { title, subtitle } = $props();
 </script>
 
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</svelte:head>
+
 <div class="title-card">
     <div class="content">
         <h1>{title}</h1>
@@ -19,7 +24,7 @@
         text-align: center;
         padding: 2rem;
         box-sizing: border-box;
-        font-family: "Inter", sans-serif;
+        font-family: "Special Elite";
     }
 
     .content {

@@ -21,6 +21,8 @@
 
 <svelte:head>
   <link rel="icon"  type="image/svg+xml" href={DoorsImg} />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
 </svelte:head>
 <main>
   <TitleSection />
