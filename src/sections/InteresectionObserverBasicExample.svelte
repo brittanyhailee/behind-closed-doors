@@ -1,6 +1,6 @@
 <script>
     import Scroller from "../lib/Scroller.svelte";
-    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+    import ObservedArticleText from "../lib/ObservedRippedPaper.svelte";
 
     // this `options` object below is passed into the <ObservedArticleText>
     // component, and from there it gets passed to the IntersectionObserver object w

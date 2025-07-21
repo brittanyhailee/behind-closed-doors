@@ -18,16 +18,13 @@
         {/snippet}
 
         {#snippet scrolly()}
-            <RippedPaper>
+            <ArticleText>
                 Homes are costly, and loans significantly make it possible to 
                 purchase one as they allow buyers to pay a portion of the cost, 
                 with the loan helping to pay for the rest. 
-            </RippedPaper>
+            </ArticleText>
 
-            <!-- <RippedPaper>
-                Thus, these loans are key to achieving homeownership, and 
-                whether they're approved or denied can make all the difference.
-            </RippedPaper> -->
+    
         {/snippet}
     </Scroller>
 </div>

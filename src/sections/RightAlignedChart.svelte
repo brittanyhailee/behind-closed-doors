@@ -126,10 +126,10 @@
                 </p>
             </ObservedArticleText>
 
-            <RippedPaper2 {callback} {optionsThresh}>
+            <ObservedArticleText {callback} {optionsThresh}>
                 <p>They generally have stricter requirements such as 
                     a larger downpayment and a higher credit score.</p>
-                </RippedPaper2>
+                </ObservedArticleText>
 
 
             <ObservedArticleText {callback} {optionsThresh}>
@@ -150,12 +150,18 @@
         /* width: 600px; */
         width: 90%;
         margin: 0 auto;
+        /* margin-right: 50px; */
 
     }
     .chart-caption {
         width: 30vw;
         max-width: 600px;
         font-family: sans-serif;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
    
 

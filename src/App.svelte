@@ -42,10 +42,10 @@
       
 
 
-   <ImageExample />
+   <!-- <ImageExample /> -->
 
-  <IntersectionObserverSectionCard />
-  <InteresectionObserverBasicExample />
+  <!-- <IntersectionObserverSectionCard />
+  <InteresectionObserverBasicExample /> -->
  <!-- <IntersectionObserverAlertExample />
   <DisappearingDuckExample />
   <IntersectionObserverListExample /> -->

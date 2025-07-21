@@ -30,8 +30,8 @@
 </div>
 
 <style>
-.article-text {
-        margin: 50vh auto;
+    .article-text {
+        margin: 25vh auto;
         width: 50%;
         /* background-color: #ff99fc;
         color: #007052;
@@ -39,26 +39,64 @@
         border-radius: 20px;
         padding: 20px;
         box-shadow: 16px 16px #8aa6df; */
-        border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
-        border-style: solid;
-        border-width: 2px;
-        box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
-        box-sizing: border-box;
-        /* color: #41403e; */
-        color: black;
-        cursor: pointer;
-        display: inline-block;
-  
-        outline: none;
-        padding: .75rem;
-        text-decoration: none;
-        transition: all 235ms ease-in-out;
-        border-bottom-left-radius: 15px 255px;
-        border-bottom-right-radius: 225px 15px;
-        border-top-left-radius: 255px 15px;
-        border-top-right-radius: 15px 225px;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
+        padding-left: 0px;
+        background-image: url('/ripped_paper3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 20em;
+        width: 70%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: "Special Elite";
+        padding: 5px;
+    }
+    p {
+
+        margin: 0;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 18px;
+        width: 60%;
+    }
+    @media (max-width:1300px) {
+        p {
+
+        font-size: 16px;
+        margin-top: 60px; 
+        }
+       
+    }
+    @media (max-width:980px) {
+        p {
+
+        font-size: 13px;
+        margin-top: 40px; 
+        }
+        .article-text {
+            height: 15em;
+        }
+    }
+
+    @media (max-width:870px) {
+        p {
+
+        font-size: 13px;
+        margin-top: 40px; 
+        }
+        .article-text {
+            height: 15em;
+        }
+    }
+    @media (max-width:600px) {
+        p {
+
+        font-size: 15px;
+ 
+        }
+        .article-text {
+            height: 15em;
+        }
     }
 </style>

@@ -1,7 +1,7 @@
 <script>
     import { blur, slide } from "svelte/transition";
     import Scroller from "../lib/Scroller.svelte";
-    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+    import ObservedArticleText from "../lib/ObservedRippedPaper.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
 
     const options = {

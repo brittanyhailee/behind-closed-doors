@@ -26,16 +26,16 @@
         {/snippet}
 
         {#snippet scrolly()}
-            <RippedPaper>
+            <ArticleText>
                 After a long day, don't we think: "I can't wait to get home"?
                 <br>After all, a home provides comfort and security.
                 <!-- Homeownership is crucial in accumulating wealth through investments.  -->
-            </RippedPaper>
+            </ArticleText>
 
-            <RippedPaper2>
+            <ArticleText>
                 For Black homebuyers, however, the experience of calling a place 'home' is 
                 a dream further out of reach.
-            </RippedPaper2>
+            </ArticleText>
             
 
             <!-- <ArticleText>

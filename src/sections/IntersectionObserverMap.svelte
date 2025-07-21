@@ -3,6 +3,9 @@
     import { onMount } from 'svelte';
     import { Chart } from '@highcharts/svelte';
     import mapDataUS from '@highcharts/map-collection/countries/us/us-all.geo.json';
+    import Scroller from "../lib/Scroller.svelte";
+    import ArticleText from "../lib/ArticleText.svelte";
+    import ObservedArticleText from '../lib/ObservedArticleText.svelte';
 
     // HighchartsMap(Highcharts);
 
@@ -180,10 +183,8 @@
         },
     },
 
-  
-    
-  
-  ];
+
+];
 
   onMount(() => {
     Highcharts.mapChart(chartContainer, {
@@ -224,6 +225,7 @@
                     format: '{point.name}',
                 },
                tooltip: {
+                headerFormat: '', // ADD THIS to remove "series 1" title
                 useHTML: true,
                 pointFormatter: function() {
                     const fullData = this.options.fullData || {};
@@ -266,5 +268,37 @@
     });
   });
 </script>
+   
+<div>
+    <Scroller layout="left">
+        {#snippet sticky()}
+            <div class="chart">
+                <div bind:this={chartContainer} class="map"></div>
+            </div>
+    
+        {/snippet}
 
-<div bind:this={chartContainer} class="map" style="height: 500px;"></div>
+        {#snippet scrolly()}
+            <ArticleText>
+                The map depicts the top 25% of geographies with the highest rates of conventional
+                loan denials for Black or African American people. And as you hover over the states,
+                it gives a clearer idea of how many loan denials occur per 100 people of a racial group. 
+          
+            </ArticleText>
+            <ArticleText>
+                Let's take Louisiana as an example. 
+            </ArticleText>
+
+        {/snippet}
+    </Scroller>
+</div>
+
+<style>
+    .chart {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    
+
+</style>
