@@ -281,17 +281,20 @@
         {#snippet scrolly()}
             <ArticleText>
                 The map depicts the top 25% of geographies with the highest rates of conventional
-                loan denials for Black or African American people. And as you hover over the states,
-                it gives a clearer idea of how many loan denials occur per 100 people of a racial group. 
+                loan denials for Black or African American people. 
           
+            </ArticleText>
+            <ArticleText>
+                As you hover over the states,
+                it gives a clearer idea of how many loan denials occur per 100 people of a racial group. 
             </ArticleText>
             <ArticleText>
                 It is notable that the population-based rate of loan denials per 100 Black or African American people is almost always higher.
             </ArticleText>
             <ArticleText>
-                Let's take Louisiana as an example.
+                Let's take Louisiana as an example with a value of 0.76 loan denials per 100 Black/African Americans. This is
+                significantly greater than the rates of other racial groups.
             </ArticleText>
-
         {/snippet}
     </Scroller>
 </div>

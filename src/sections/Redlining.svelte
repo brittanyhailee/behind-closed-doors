@@ -1,0 +1,113 @@
+<script>
+    import RedLine from "../lib/RedLine.svelte";
+    import { fade, fly } from "svelte/transition";
+    import Scroller from "../lib/Scroller.svelte";
+    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+    import ArticleText from "../lib/ArticleText.svelte";
+
+    let lineIsVisible = $state(false);
+
+    let title = "Redlining"
+
+    const options = {
+        threshold: [0.85, 0.95],
+    };
+
+    const showLine = (entries, observer) => {
+        entries.forEach((entry) => {
+            const elem = entry.target;
+            console.log(entry);
+
+            if (entry.intersectionRatio >= 0.9) {
+        
+                lineIsVisible = true;
+            } else if (entry.intersectionRatio < 0.9) {
+     
+                lineIsVisible = false;
+            }
+        });
+    };
+  
+
+
+    const addBackground = (entries, observer) => {
+        entries.forEach((entry) => {
+            const elem = entry.target;
+            console.log(entry);
+
+            if (entry.intersectionRatio >= 0.9) {
+                elem.style.backgroundColor = "#DED9BC";
+                // duckIsVisible = true;
+            } else if (entry.intersectionRatio < 0.9) {
+                elem.style.backgroundColor = "#888888";
+            }
+        });
+    };
+
+ 
+
+</script>
+
+<Scroller layout="right">
+    {#snippet sticky()}
+        <RedLine title={title} callback={showLine} {options}/>
+            {#if lineIsVisible}
+                    <div 
+                    class="line" 
+                    in:fly={{ x: -200, duration: 1500 }}
+                                out:fly={ {x: 200, duration: 1500} }>
+                    </div>
+                        
+            {/if}
+    {/snippet}
+    {#snippet scrolly()} 
+        <ArticleText>According to the Legal Information Institute of Cornell Law School, <a target="_blank" href="https://www.law.cornell.edu/wex/redlining">
+            Redlining</a>, can be defined as "a <span style="text-decoration:underline;">discriminatory practice that consists of the systematic denial of services</span> 
+            such as mortgages, insurance loans, and other financial services to residents of certain areas, based on their race or ethnicity."</ArticleText>
+        <ArticleText>What can redlining look like?</ArticleText>
+
+        <ObservedArticleText callback={addBackground} {options}>
+            Imagine an African American woman with a strong financial profile who dreams of becoming an entrepreneur walking into a bank to apply for a business loan.
+            <br>
+            <img src="./public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
+        </ObservedArticleText>
+        <ObservedArticleText callback={addBackground} {options}>
+            Believing she would be receiving the best guidance, she agrees to a Business Line of Credit (BLOC), which has fast repayment terms and has potential for debt accumulation. 
+        </ObservedArticleText>
+        <ObservedArticleText callback={addBackground} {options}>
+            Now, imagine a White woman with a financial profile less impressive than the previous applicant, who also dreams of becoming an entrepreneur.            
+            She walks into a bank to apply for a business loan. 
+            <br>
+            <img src="./public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
+        </ObservedArticleText>
+        <ObservedArticleText callback={addBackground} {options}>
+            She receives the best guidance, and she is offered a business term loan which often has lower interest rates and is better for long-term capital.
+        </ObservedArticleText>
+         <ObservedArticleText callback={addBackground} {options}>
+            This is exactly the study done by the researchers in the paper, "<a target="_blank" 
+            href="https://journals.sagepub.com/doi/abs/10.1177/00222437231176470">Revealing and Mitigating Racial Bias and Discrimination in Financial Services</a>".
+        </ObservedArticleText>
+         <ObservedArticleText callback={addBackground} {options}>
+            Thus, redlining can present itself in a number of ways, such as being denied access to credit because of where you live,
+            being offered the less ideal option, or not receiving enough support throughout a financial process.
+
+        </ObservedArticleText>
+
+    {/snippet}
+    
+</Scroller>
+
+<style>
+
+    .line {
+        border-bottom: 5px dashed #D2042D; 
+        width:60%;
+        margin:0;
+    }
+
+    @media (max-width:750px) {
+        .line {
+            width: 50%;
+        }
+    }
+</style>

@@ -22,8 +22,8 @@
   import IntersectionObserverMap from "./sections/IntersectionObserverMap.svelte";
   import TextOverlay from "./sections/Louisiana.svelte";
   import Louisiana from "./sections/Louisiana.svelte";
+  import Redlining from "./sections/Redlining.svelte";
 
-  let title = 'hi'
 </script>
 
 <svelte:head>
@@ -41,6 +41,7 @@
   <MapTransition />
   <IntersectionObserverMap />
   <Louisiana />
+  <Redlining />
 
       
 

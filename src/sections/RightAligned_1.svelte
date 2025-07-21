@@ -33,7 +33,7 @@
             </ArticleText>
 
             <ArticleText>
-                For Black homebuyers, however, the experience of calling a place 'home' is 
+                For Black or African American homebuyers, however, the experience of calling a place 'home' is 
                 a dream further out of reach.
             </ArticleText>
             

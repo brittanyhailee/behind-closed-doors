@@ -56,7 +56,7 @@
     position: relative;
     z-index: 1;
     height: 100%;
-    background: white;
+    background: #f7f5eb;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -29,6 +29,7 @@
         /* font-family: Neucha, sans-serif;
         font-size: 1rem;
         line-height: 23px; */
+        font-size: 1.2rem;
         outline: none;
         padding: .75rem;
         text-decoration: none;

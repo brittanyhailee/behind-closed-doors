@@ -51,13 +51,15 @@
             </ObservedArticleText>
 
             <ObservedArticleText callback={addBackground} {options}>
-                Furthermore, the 22,701 loans approved totalled $3 billion, whereas the loans denied to
-                African Americans amounted to $319 million worth of loans, representing about 32% of African American applications.
+                Furthermore, in 2023, while 22,701 loans were approved totaling $3 billion, 
+                African American applicants were denied loans worth $319 million, representing about 32% of their applications.
             </ObservedArticleText>
             <ObservedArticleText callback={addBackground} {options}>
                 This denial rate of 32% for African Americans is nearly double that of White applicants at 18%.           
             </ObservedArticleText>
-            
+             <ObservedArticleText callback={addBackground} {options}>
+                <p style="text-align:center;">But what causes this racial disparity?</p>
+            </ObservedArticleText>
 
             <!-- <ArticleText>
                 You can use this template as a <strong>starting point</strong>
@@ -84,25 +86,3 @@
 
 </style>
 
-
-<!-- <script>
-	import ArticleText from "../lib/ArticleText.svelte";
-	import CenterScroller from "../lib/CenterScroller.svelte";
-	import Scroller from "../lib/Scroller.svelte";
-</script>
-
-<Scroller layout="center">
-	{#snippet sticky()}  -->
-		<ArticleText>hi</ArticleText>
-			<!-- <img src="louisiana.svg" alt="Map of Louisiana"/>
-			<p>why not sticking yo</p>
-		</div> -->
-	<!-- {/snippet}
-	{#snippet scrolly()}
-		<ArticleText>hi</ArticleText>
-	{/snippet}
-</Scroller> -->
-
-<!-- <style>
-	
-</style> -->
