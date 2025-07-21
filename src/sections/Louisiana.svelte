@@ -1,13 +1,7 @@
 <script>
-    import RippedPaper from '../lib/RippedPaper.svelte';
 
-
-    import * as Highcharts from "highcharts";
     import "highcharts/modules/exporting";
-    import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
-    import RippedPaper2 from '../lib/RippedPaper2.svelte';
     import ObservedArticleText from '../lib/ObservedArticleText.svelte';
 
     const options = {
@@ -61,23 +55,7 @@
                 <p style="text-align:center;">But what causes this racial disparity?</p>
             </ObservedArticleText>
 
-            <!-- <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
-            </ArticleText>
-
-            <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
-            </ArticleText> -->
+          
         {/snippet}
     </Scroller>
 </div>

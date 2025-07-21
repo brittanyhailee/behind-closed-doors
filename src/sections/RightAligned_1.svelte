@@ -1,6 +1,4 @@
 <script>
-    import RippedPaper from '../lib/RippedPaper.svelte';
-
     let text = 'Welcome to the KWK Data Scrollytelling Template!'
 
     import * as Highcharts from "highcharts";
@@ -8,7 +6,6 @@
     import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
-    import RippedPaper2 from '../lib/RippedPaper2.svelte';
 
 
 </script>

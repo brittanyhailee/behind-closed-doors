@@ -5,7 +5,6 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import dollar from '../../public/dollar-sign.gif';
-    import RippedPaper from "../lib/RippedPaper.svelte";
     import { fly } from "svelte/transition";
 
 </script>

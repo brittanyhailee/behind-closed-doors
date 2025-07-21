@@ -4,10 +4,7 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import ScrollerColumn from "../lib/ScrollerColumn.svelte";
-  import RippedPaper3 from "../lib/RippedPaper3.svelte";
-
-  import ObservedArticleText from "../lib/ObservedArticleText.svelte";
-  import RippedPaper2 from "../lib/RippedPaper2.svelte";
+    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
 
 
     let chart;
