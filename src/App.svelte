@@ -19,6 +19,7 @@
   import RightAlignedChart from "./sections/RightAlignedChart.svelte";
   import ImgTransition from "./lib/ImgTransition.svelte";
   import MapTransition from "./sections/MapTransition.svelte";
+  import IntersectionObserverMap from "./sections/IntersectionObserverMap.svelte";
 
   let title = 'hi'
 </script>
@@ -36,6 +37,7 @@
   <RightAlignedChart />
   
   <MapTransition />
+  <IntersectionObserverMap />
 
       
 
