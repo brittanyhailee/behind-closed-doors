@@ -62,7 +62,7 @@
     {/snippet}
     {#snippet scrolly()} 
         <ArticleText>According to the Legal Information Institute of Cornell Law School, <a target="_blank" href="https://www.law.cornell.edu/wex/redlining">
-            Redlining</a>, can be defined as "a <span style="text-decoration:underline;">discriminatory practice that consists of the systematic denial of services</span> 
+            Redlining</a> can be defined as "a <span style="text-decoration:underline;">discriminatory practice that consists of the systematic denial of services</span> 
             such as mortgages, insurance loans, and other financial services to residents of certain areas, based on their race or ethnicity."</ArticleText>
         <ArticleText>What can redlining look like?</ArticleText>
 
@@ -72,7 +72,7 @@
             <img src="./public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
-            Believing she would be receiving the best guidance, she agrees to a Business Line of Credit (BLOC), which has fast repayment terms and has potential for debt accumulation. 
+            Believing she is receiving the best guidance, she unknowingly agrees to an inferior loan even if she qualifies for better options.
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
             Now, imagine a White woman with a financial profile less impressive than the previous applicant, who also dreams of becoming an entrepreneur.            
@@ -81,11 +81,15 @@
             <img src="./public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
-            She receives the best guidance, and she is offered a business term loan which often has lower interest rates and is better for long-term capital.
+            She receives the best guidance, she was provided better options, despite having a weaker financial profile to the previous applicant.
         </ObservedArticleText>
          <ObservedArticleText callback={addBackground} {options}>
-            This is exactly the study done by the researchers in the paper, "<a target="_blank" 
+            This is similar to the study done by the researchers in the paper, "<a target="_blank" 
             href="https://journals.sagepub.com/doi/abs/10.1177/00222437231176470">Revealing and Mitigating Racial Bias and Discrimination in Financial Services</a>".
+        </ObservedArticleText>
+        <ObservedArticleText callback={addBackground} {options}>
+            Researchers of the study found that the Black participants, even with a superior financial profile, were less likely to be offered the business line of credit (BLOC)
+            than White participants.
         </ObservedArticleText>
          <ObservedArticleText callback={addBackground} {options}>
             Thus, redlining can present itself in a number of ways, such as being denied access to credit because of where you live,
