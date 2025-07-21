@@ -12,12 +12,7 @@
     .article-text {
         margin: 50vh auto;
         width: 50%;
-        /* background-color: #ff99fc;
-        color: #007052;
-        border: solid #8427c9 3px;
-        border-radius: 20px;
-        padding: 20px;
-        box-shadow: 16px 16px #8aa6df; */
+
         border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
         border-style: solid;
         border-width: 2px;
@@ -26,9 +21,7 @@
         color: black;
         cursor: pointer;
         display: inline-block;
-        /* font-family: Neucha, sans-serif;
-        font-size: 1rem;
-        line-height: 23px; */
+       
         outline: none;
         padding: .75rem;
         text-decoration: none;

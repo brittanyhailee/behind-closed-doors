@@ -2,10 +2,10 @@
     let { title, baseImageSrc, topImageSrc, text } = $props();
 
     window.addEventListener('scroll', () => {
-  const overlay = document.querySelector('.text-overlay');
-  const container = document.querySelector('.image-container');
-  const rect = container.getBoundingClientRect();
-  const windowHeight = window.innerHeight;
+    const overlay = document.querySelector('.text-overlay');
+    const container = document.querySelector('.image-container');
+    const rect = container.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
 
   if (rect.top < windowHeight && rect.bottom > 0) {
     // image is in viewport, reveal overlay
@@ -41,7 +41,7 @@
 //   topImage.style.clipPath = `inset(0 0 ${clipValue}% 0)`;
     if (topImage instanceof HTMLElement) {
         console.log('topImage is HTML')
-    topImage.style.clipPath = `inset(0 0 ${clipValue}% 0)`;
+        topImage.style.clipPath = `inset(0 0 ${clipValue}% 0)`;
     }
 });
 
@@ -76,7 +76,7 @@
         flex-direction: column;
         /* justify-content: center; */
         align-content: center;
-        height: 800vh; /* Enough scroll space for the reveal effect */
+        height: 800vh; 
         /* height: 180vh; */
         background-color: #f7f5eb;
         /* padding: min(100vh, 30rem) 1rem; */
@@ -119,7 +119,6 @@
         text-align: center;
 
         
-        /* margin: 50vh auto; */
         width: 50%;
         border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
         border-style: solid;
@@ -152,7 +151,7 @@
 
     .container {
         position: sticky;
-        /* height: 180vh; or desired height */
+
         top: 50px;
         left: 0;
         width: 100%;
@@ -169,16 +168,15 @@
         left: 0;
         width: 80%;
         height: 80%;
-        object-fit: contain; /* ensures aspect ratio is preserved while covering */
-        /* margin: auto; */
+        object-fit: contain; 
         margin-top: 40px;
         margin-left: 150px;
     
     }
 
     .top-image {
-        clip-path: inset(0 0 100% 0); /* Initially fully hidden */
-        transition: clip-path 0.2s linear; /* Optional smoothing */
+        clip-path: inset(0 0 100% 0); /* fully hidden at first*/
+        transition: clip-path 0.2s linear; 
         background-color: #f7f5eb;
     }
 
