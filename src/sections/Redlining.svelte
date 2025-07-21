@@ -63,7 +63,7 @@
     {/snippet}
     {#snippet scrolly()} 
         <ArticleText>According to the Legal Information Institute of Cornell Law School, <a target="_blank" href="https://www.law.cornell.edu/wex/redlining">
-            Redlining</a> can be defined as "a <span style="text-decoration:underline;">discriminatory practice that consists of the systematic denial of services</span> 
+            Redlining</a> can be defined as "a <span style="text-decoration:underline;text-decoration-color:#D2042D;">discriminatory practice that consists of the systematic denial of services</span> 
             such as mortgages, insurance loans, and other financial services to residents of certain areas, based on their race or ethnicity."</ArticleText>
         <ArticleText>What can redlining look like?</ArticleText>
 
@@ -82,7 +82,7 @@
             <img src={BankImg} style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
-            She receives the best guidance, she was provided better options, despite having a weaker financial profile to the previous applicant.
+            Despite having a weaker financial profile to the previous applicant, she receives the best guidance, and she was provided better options.
         </ObservedArticleText>
          <ObservedArticleText callback={addBackground} {options}>
             This is similar to the study done by the researchers in the paper, "<a target="_blank" 

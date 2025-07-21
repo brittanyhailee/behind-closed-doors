@@ -6,6 +6,7 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import ObservedArticleText from '../lib/ObservedArticleText.svelte';
+    import SampleMap from '../../public/BWDCSampleMap.png';
 
     // HighchartsMap(Highcharts);
 
@@ -280,17 +281,25 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                The map depicts the top 25% of geographies with the highest rates of conventional
-                loan denials for Black or African American people. 
-          
+                Let's take a look at the map depicting the top 25% of geographies with the highest Black population percentage by state.
+
             </ArticleText>
+
             <ArticleText>
                 As you hover over the states,
                 it gives a clearer idea of how many loan denials occur per 100 people of a racial group. 
             </ArticleText>
+
             <ArticleText>
                 It is notable that the population-based rate of loan denials per 100 Black or African American people is almost always higher.
             </ArticleText>
+
+            <ArticleText>
+                When you fully explore this <a target="_blank"href="https://blackwealthdata.org/explore/homeownership">map</a> 
+                provided by the BWDC, you will notice that regardless of the Black population percentage by state, 
+                the population-based rate of loan denials per 100 people tends to be on the higher end.
+            </ArticleText>
+
             <ArticleText>
                 Let's take Louisiana as an example with a value of 0.76 loan denials per 100 Black/African Americans. This is
                 significantly greater than the rates of other racial groups.
@@ -305,6 +314,7 @@
         margin: 0px auto;
     }
 
-    
+
+ 
 
 </style>

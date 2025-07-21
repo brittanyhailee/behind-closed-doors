@@ -114,22 +114,22 @@
 
         {#snippet scrolly()}
         <div class="wrapper">
-             <ObservedArticleText {callback} {optionsThresh}>
+             <ObservedArticleText {callback} options={optionsThresh}>
                 <p><span style="text-decoration:underline;"><a target="_blank"
                     href="https://www.investopedia.com/articles/mortgages-real-estate/08/homebuyer-financing-option.asp">Conventional loans</a></span> are the most popular type of loan for purchasing a home.
                 These are loans that from private lenders such as banks and credit unions. 
                 </p>
             </ObservedArticleText>
 
-            <ObservedArticleText {callback} {optionsThresh}>
+            <ObservedArticleText {callback} options={optionsThresh}>
                 <p>They generally have stricter requirements such as 
                     a larger downpayment and a higher credit score.</p>
                 </ObservedArticleText>
 
 
-            <ObservedArticleText {callback} {optionsThresh}>
+            <ObservedArticleText {callback} options={optionsThresh}>
                 <p>From the data, we can observe that per 100 people, Black or African Americans experience
-                    <span style="text-decoration:underline;">more</span> conventional loan denials relative to their population. </p>
+                    <span style="text-decoration:underline;text-decoration-color:#D2042D;">more</span> conventional loan denials relative to their population. </p>
 
             </ObservedArticleText>
         </div>
