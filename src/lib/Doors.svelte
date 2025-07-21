@@ -62,7 +62,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('titleBG.gif');
+    background-image: url('/public/titleBG.gif');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;

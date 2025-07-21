@@ -44,13 +44,4 @@
   <Redlining />
 
       
-
-
-   <!-- <ImageExample /> -->
-
-  <!-- <IntersectionObserverSectionCard />
-  <InteresectionObserverBasicExample /> -->
- <!-- <IntersectionObserverAlertExample />
-  <DisappearingDuckExample />
-  <IntersectionObserverListExample /> -->
 </main>
