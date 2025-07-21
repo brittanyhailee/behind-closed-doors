@@ -4,6 +4,7 @@
     import Scroller from "../lib/Scroller.svelte";
     import ObservedArticleText from "../lib/ObservedArticleText.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
+    import BankImg from '/bank.svg';
 
     let lineIsVisible = $state(false);
 
@@ -69,7 +70,7 @@
         <ObservedArticleText callback={addBackground} {options}>
             Imagine an African American woman with a strong financial profile who dreams of becoming an entrepreneur walking into a bank to apply for a business loan.
             <br>
-            <img src="/public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
+            <img src={BankImg} style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
             Believing she is receiving the best guidance, she unknowingly agrees to an inferior loan even if she qualifies for better options.
@@ -78,7 +79,7 @@
             Now, imagine a White woman with a financial profile less impressive than the previous applicant, who also dreams of becoming an entrepreneur.            
             She walks into a bank to apply for a business loan. 
             <br>
-            <img src="/public/bank.svg" style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
+            <img src={BankImg} style="width:90px;height:90px;display:block; margin: 0 auto;" alt="Sketch of a bank"/>
         </ObservedArticleText>
         <ObservedArticleText callback={addBackground} {options}>
             She receives the best guidance, she was provided better options, despite having a weaker financial profile to the previous applicant.
