@@ -11,6 +11,7 @@
   import TextOverlay from "./sections/Louisiana.svelte";
   import Louisiana from "./sections/Louisiana.svelte";
   import Redlining from "./sections/Redlining.svelte";
+  import Conclusion from "./sections/Conclusion.svelte";
 
 </script>
 
@@ -30,6 +31,8 @@
   <IntersectionObserverMap />
   <Louisiana />
   <Redlining />
+
+  <Conclusion />
 
       
 </main>

@@ -1,8 +1,6 @@
 <script>
     import * as Highcharts from "highcharts";
     import { Chart } from "@highcharts/svelte";
-    import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
     import ScrollerColumn from "../lib/ScrollerColumn.svelte";
     import ObservedArticleText from "../lib/ObservedArticleText.svelte";
 

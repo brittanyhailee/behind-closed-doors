@@ -1,14 +1,14 @@
 <script>
-
     import "highcharts/modules/exporting";
     import Scroller from "../lib/Scroller.svelte";
     import ObservedArticleText from '../lib/ObservedArticleText.svelte';
+    import houseGif from '../../public/house.gif';
 
     const options = {
         threshold: [0.85, 0.95],
     };
-
-    const addBackground = (entries, observer) => {
+    
+   const addBackground = (entries, observer) => {
         entries.forEach((entry) => {
             const elem = entry.target;
             console.log(entry);
@@ -28,11 +28,11 @@
 <svelte:head>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </svelte:head>
-<div>
+
   
     <Scroller layout="center">
         {#snippet sticky()}
-            <img style="width:400px; opacity:0.5;"src="./louisiana.svg" alt="Map of Louisiana"/>
+            <img style="width:400px;" src="./house.gif" alt="Home with falling leaves"/>
 
         {/snippet}
 
@@ -57,9 +57,3 @@
           
         {/snippet}
     </Scroller>
-</div>
-
-<style>
-
-</style>
-
