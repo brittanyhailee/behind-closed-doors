@@ -57,8 +57,8 @@
 
     <div class="container">
         
-        <img src={baseImageSrc} alt="Base image" class="base-image" />
-        <img src={topImageSrc} alt="Top image overlay" class="top-image" />
+        <img src={baseImageSrc} alt="Map of USA with people" class="base-image" />
+        <img src={topImageSrc} alt="Map of USA with less people" class="top-image" />
    
         <div class="text-overlay">
             <p>{text}</p>
