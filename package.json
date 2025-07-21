@@ -18,6 +18,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "@highcharts/map-collection": "^2.3.1"
+    "@highcharts/map-collection": "^2.3.1",
+    "enter-view": "^2.0.1"
   }
 }

@@ -23,6 +23,7 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
+
   }
   .door {
     position: absolute;
@@ -61,6 +62,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url('titleBG.gif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 </style>
 

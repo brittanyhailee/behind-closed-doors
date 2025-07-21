@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
 
 
-    let { children, callback, optionsThresh } = $props();
+    let { children, callback, options } = $props();
 
     // this uniqueId just lets us target the element 
     // with `document.getElementById(uniqueId)` later on.
@@ -15,7 +15,7 @@
     // stuff in onMount() because we need to target the <div> we create below,
     // but it won't actually exist in the DOM until it's been mounted. 
     onMount(() => {
-        let intersectionObserver = new IntersectionObserver(callback, optionsThresh);
+        let intersectionObserver = new IntersectionObserver(callback, options);
 
         const observedElement = document.getElementById(uniqueId);
         intersectionObserver.observe(observedElement);

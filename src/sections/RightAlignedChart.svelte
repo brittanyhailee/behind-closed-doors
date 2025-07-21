@@ -165,13 +165,4 @@
     }
    
 
-
-/*     
-       @media (max-width:768px) {
-        .chart {
-            width: 70vw;
-            height: 55vh;
-       
-        }
-    } */
 </style>

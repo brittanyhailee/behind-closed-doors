@@ -20,6 +20,8 @@
   import ImgTransition from "./lib/ImgTransition.svelte";
   import MapTransition from "./sections/MapTransition.svelte";
   import IntersectionObserverMap from "./sections/IntersectionObserverMap.svelte";
+  import TextOverlay from "./sections/Louisiana.svelte";
+  import Louisiana from "./sections/Louisiana.svelte";
 
   let title = 'hi'
 </script>
@@ -38,6 +40,7 @@
   
   <MapTransition />
   <IntersectionObserverMap />
+  <Louisiana />
 
       
 

@@ -286,7 +286,10 @@
           
             </ArticleText>
             <ArticleText>
-                Let's take Louisiana as an example. 
+                It is notable that the population-based rate of loan denials per 100 Black or African American people is almost always higher.
+            </ArticleText>
+            <ArticleText>
+                Let's take Louisiana as an example.
             </ArticleText>
 
         {/snippet}
