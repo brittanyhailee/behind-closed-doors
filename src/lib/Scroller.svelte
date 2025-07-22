@@ -43,7 +43,7 @@
     }
 
     .title h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .wrapper {
         overflow: none;
