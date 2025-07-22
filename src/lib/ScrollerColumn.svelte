@@ -36,7 +36,8 @@
         position: sticky;
         top: 20px;
         width: 100%;
-        font-family: "Special Elite";
+        /* font-family: "Special Elite"; */
+        font-family: "IM Fell Double Pica";
         z-index: 10;
         
         margin: 0;

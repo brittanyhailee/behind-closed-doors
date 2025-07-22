@@ -24,6 +24,8 @@
     height: 100vh;
     overflow: hidden;
     border: 3px solid black;
+    font-family: "IM Fell Double Pica";
+    font-size: 1.2em;
 
   }
   .door {

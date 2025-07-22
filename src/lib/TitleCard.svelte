@@ -3,8 +3,7 @@
 </script>
 
 <svelte:head>
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=IM+Fell+Double+Pica:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="title-card">
