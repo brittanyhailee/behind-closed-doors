@@ -21,7 +21,7 @@
             }
         });
     };
-
+    let title = "What's happening in Louisiana?";
 
 </script>
 
@@ -31,7 +31,7 @@
 </svelte:head>
 <div>
   
-    <Scroller layout="center">
+    <Scroller {title} layout="center">
         {#snippet sticky()}
             <img style="width:400px; opacity:0.5;"src="./louisiana.svg" alt="Map of Louisiana"/>
 

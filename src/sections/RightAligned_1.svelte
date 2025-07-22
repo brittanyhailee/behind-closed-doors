@@ -8,6 +8,7 @@
     import ArticleText from "../lib/ArticleText.svelte";
 
 
+    let title = "Here's the scenario:";
 </script>
 
 
@@ -16,7 +17,7 @@
 </svelte:head>
 <div>
   
-    <Scroller layout="right">
+    <Scroller {title} layout="right">
         {#snippet sticky()}
             <img style="width:400px;"src="./house.svg" alt="Drawing of a home"/>
 

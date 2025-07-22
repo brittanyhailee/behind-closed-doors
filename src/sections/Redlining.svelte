@@ -5,6 +5,7 @@
     import ObservedArticleText from "../lib/ObservedArticleText.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import BankImg from '/bank.svg';
+    import ScrollerNoTitle from "../lib/ScrollerNoTitle.svelte";
 
     let lineIsVisible = $state(false);
 
@@ -49,7 +50,7 @@
 
 </script>
 
-<Scroller layout="right">
+<ScrollerNoTitle layout="right">
     {#snippet sticky()}
         <RedLine title={title} callback={showLine} {options}/>
             {#if lineIsVisible}
@@ -100,7 +101,7 @@
 
     {/snippet}
     
-</Scroller>
+    </ScrollerNoTitle>
 
 <style>
 

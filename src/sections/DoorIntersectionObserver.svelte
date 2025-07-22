@@ -48,6 +48,7 @@
 <style>
 p {
   transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+  color: white;
 }
 
 /* p:hover {

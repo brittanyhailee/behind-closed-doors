@@ -21,6 +21,8 @@
         });
     };
 
+    let title ="A home and a future"
+
 
 </script>
 
@@ -30,9 +32,10 @@
 </svelte:head>
 
   
-    <Scroller layout="center">
+    <Scroller {title} layout="center">
+        
         {#snippet sticky()}
-        <h1>A home and a future</h1>
+       
             <img style="width:400px;" src="./house.gif" alt="Home with falling leaves"/>
 
         {/snippet}

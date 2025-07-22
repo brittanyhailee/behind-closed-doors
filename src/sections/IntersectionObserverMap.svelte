@@ -7,6 +7,7 @@
     import ArticleText from "../lib/ArticleText.svelte";
     import ObservedArticleText from '../lib/ObservedArticleText.svelte';
     import SampleMap from '../../public/BWDCSampleMap.png';
+  import ScrollerColumn from '../lib/ScrollerColumn.svelte';
 
     // HighchartsMap(Highcharts);
 
@@ -268,10 +269,14 @@
         ],
     });
   });
+
+  let title ="Let's take a look at statewide loans decisions in 2023";
 </script>
    
 <div>
-    <Scroller layout="left">
+   
+    <ScrollerColumn {title} layout="left">
+         
         {#snippet sticky()}
             <div class="chart">
                 <div bind:this={chartContainer} class="map"></div>
@@ -305,13 +310,18 @@
                 significantly greater than the rates of other racial groups.
             </ArticleText>
         {/snippet}
-    </Scroller>
+    </ScrollerColumn>
 </div>
 
 <style>
     .chart {
         width: 90%;
         margin: 0px auto;
+        width: 90%;
+        margin: 0 auto;
+        border: 2px solid black;
+        border-radius: 4px; 
+        box-sizing: border-box;
     }
 
 

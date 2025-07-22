@@ -57,7 +57,8 @@
         plotOptions: {
             column: {
                 pointPadding: 0.1,
-                borderWidth: 0,
+                borderWidth: 0, 
+
                 
             }
         },
@@ -91,10 +92,12 @@
             }
         });
     };
+
+    let title = "What can we determine from nationwide conventional loan denials in 2023?"
 </script>
 
 <div>
-    <ScrollerColumn layout="right">
+    <ScrollerColumn {title} layout="right">
         {#snippet sticky()}
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
@@ -145,7 +148,9 @@
         /* width: 600px; */
         width: 90%;
         margin: 0 auto;
-        /* margin-right: 50px; */
+        border: 2px solid black;
+        border-radius: 4px; 
+        box-sizing: border-box;
 
     }
     .chart-caption {

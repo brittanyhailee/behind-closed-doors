@@ -88,7 +88,8 @@
     .content {
 
         text-align: center;
-        width: 15vw;
+        width: 20%;
+        /* width:15vw; */
         /* width: 20%; */
         font-size: 20px;
         /* z-index: 2; */
@@ -101,6 +102,7 @@
     @media (max-width: 900px) {
         .content {
             font-size: 18px;
+            width: 20vw;
         }
     }
 
@@ -109,6 +111,7 @@
         .content {
             font-size: 15px;
             margin-right: 130px; 
+            width: 20%;
             /* height: 5vh; */
             /* margin-right: 120px;  */
             
@@ -125,6 +128,7 @@
         .content {
             font-size: 14px;
             margin-right: 130px; 
+            width: 15vw;
             /* height: 5vh; */
             /* margin-right: 120px;  */
             

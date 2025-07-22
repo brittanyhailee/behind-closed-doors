@@ -7,10 +7,12 @@
     import dollar from '../../public/dollar-sign.gif';
     import { fly } from "svelte/transition";
 
+    let title = "Why do loans matter?"
+
 </script>
 
 <div>
-    <Scroller layout="left">
+    <Scroller {title} layout="left">
         {#snippet sticky()}
             <img src={dollar} alt="Dollar sign" class="dollar"/>
           

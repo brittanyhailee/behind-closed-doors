@@ -1,14 +1,9 @@
 <script>
     // `layout` can be either "right" or "left"
     // `sticky` and `scrolly` are the snippets passed in (see one of the examples)
-    let { layout, sticky, scrolly,title } = $props(); 
+    let { layout, sticky, scrolly } = $props(); 
 </script>
 
-<div class="title-container">
-        <div class="title">
-            <h1>{title}</h1>
-        </div>
-    </div>
 
 <div class="wrapper {layout}">
     <div class="sticky">
@@ -22,25 +17,6 @@
 
 <style>
 
-     .title-container {
-        text-align: center;
-        width: 100%;
-        position: relative;
-        height: 20vh;
-        padding: 0;
-        margin: 0;
-    }
-  
-     .title {
-        position: sticky;
-        top: 20px;
-        width: 100%;
-        font-family: "Special Elite";
-        z-index: 10;
-
-        
-        margin: 0;
-    }
     .wrapper {
         overflow: none;
         background-color: #f7f5eb;
@@ -101,9 +77,6 @@
             flex-direction: column;
             padding: 2rem 1rem;
             width: 100vw;
-        }
-        .title h1{
-            font-size: 25px;
         }
 
 

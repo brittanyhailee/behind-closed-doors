@@ -47,13 +47,12 @@
 
 
 </script>
-<div class="container-fixed">
-    
     <div class="title-container">
         <div class="title">
             <h1>{title}</h1>
         </div>
     </div>
+<div class="container-fixed">
 
     <div class="container">
         
@@ -69,6 +68,25 @@
 
 
 <style>
+
+    .title-container {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 20vh;
+        padding: 0;
+        margin: 0;
+    }
+  
+     .title {
+        position: sticky;
+        top: 20px;
+        width: 100%;
+        font-family: "Special Elite";
+        z-index: 10;
+        
+        margin: 0;
+    }
    
     .container-fixed {
         position: relative;
@@ -84,15 +102,15 @@
         border-style: solid;
        
     }
-    .title-container {
+    /* .title-container {
         text-align: center;
         width: 100%;
         position: relative;
         height: 50vh;
         padding: 0;
-    }
+    } */
   
-     .title {
+     /* .title {
         position: sticky;
         top: 20px;
         width: 100%;
@@ -100,7 +118,7 @@
         z-index: 10;
         
         margin: 0;
-    }
+    } */
 
     .text-overlay {
         position: absolute;
@@ -123,7 +141,7 @@
         border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
         border-style: solid;
         border-width: 2px;
-        box-shadow: rgba(160, 82, 45, .4) 15px 28px 25px -18px;
+        box-shadow: rgba(0, 0, 0, .5) 15px 28px 25px -18px;
         box-sizing: border-box;
         color: white;
         cursor: pointer;
