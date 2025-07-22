@@ -70,6 +70,14 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .content h3 {
+    margin: 0;
+    font-style: italic;
+  }
+  .content h1 {
+    margin: 0;
+  }
 </style>
 
 <div class="sliding-container" bind:this={container}>
