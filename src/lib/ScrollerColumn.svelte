@@ -100,7 +100,7 @@
             font-size: 20px;
         }
         .title h1 {
-            font-size: 25px;
+            font-size: 30px;
         }
         .wrapper {
             flex-direction: column;

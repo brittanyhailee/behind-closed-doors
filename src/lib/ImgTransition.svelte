@@ -89,6 +89,10 @@
         
         margin: 0;
     }
+
+    .title h1 {
+        font-size: 2.5em;
+    }
    
     .container-fixed {
         position: relative;
