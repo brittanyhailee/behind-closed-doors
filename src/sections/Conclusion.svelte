@@ -60,6 +60,10 @@
                 and in the long run, homes can serve as a <a target="_blank" href="https://www.securitybankusa.bank/blog/post/the-benefits-of-home-ownership">collateral for loans</a>, opening opportunities for funds to 
                 pay off other significant expenses in life. 
             </ObservedArticleText>
+
+            <ObservedArticleText callback={addBackground} {options}>
+                Everybody deserves a home that gives them comfort for the present, and a the foundation for the future.
+            </ObservedArticleText>
           
         {/snippet}
     </Scroller>
