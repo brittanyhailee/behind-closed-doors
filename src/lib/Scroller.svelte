@@ -39,8 +39,11 @@
         font-family: "IM Fell Double Pica";
         z-index: 10;
 
-        
         margin: 0;
+    }
+
+    .title h1 {
+        font-size: 2em;
     }
     .wrapper {
         overflow: none;
@@ -103,10 +106,7 @@
             padding: 2rem 1rem;
             width: 100vw;
         }
-        .title h1{
-            font-size: 25px;
-        }
-
+    
 
         .sticky,
         .scrolly {

@@ -42,6 +42,10 @@
         
         margin: 0;
     }
+
+    .title h1 {
+        font-size: 2em;
+    }
     .wrapper {
         overflow: none;
         background-color: #f7f5eb;
