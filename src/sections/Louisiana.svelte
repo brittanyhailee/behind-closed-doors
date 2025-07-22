@@ -66,8 +66,13 @@
                 </p>
             </ObservedArticleText>
               <ObservedArticleText callback={addBackground} {options}>
-                <p style="text-align:center;">What does this look like for homeowners? Well, since the average loan application was $201,000, the excess denials of $75 million
-                    would have prevented an additional 375 home purchases.
+                <p style="text-align:center;">What does this look like for homeowners? 
+                </p>
+            </ObservedArticleText>
+
+            <ObservedArticleText callback={addBackground} {options}>
+                <p style="text-align:center;">Well, since the average loan application was $201,000, the excess denials of $75 million
+                    would have <span style="text-decoration:underline;text-decoration-color:#D2042D;">prevented an additional 375 home purchases</span>.
                 </p>
             </ObservedArticleText>
              
