@@ -16,5 +16,11 @@ Credits:
 | | <a href="https://www.canva.com/graphics/MAGicONM3I8/">Doodle White Door by Annet Debar</a>|
 | | <a href="https://www.canva.com/graphics/MAEtYBHbupc/">Door Vector Sketch by Ekaterina</a>|
 | | <a href="https://www.canva.com/graphics/MAEtYBHbupc/">Oktoberfest Autumn Leaves by Keem from Canva</a>|
+|Articles/Data| <a href="https://blackwealthdata.org/explore/homeownership">Homeownership Data from the BWDC</a>|
+|| <a href="https://blackwealthdata.org/explore/homeownership">Homeownership Data from the BWDC</a>|
+||<a href="https://www.minneapolisfed.org/article/2024/lender-reported-reasons-for-mortgage-denials-dont-explain-racial-disparities">Lender-reported reasons for mortgage denials don’t explain racial disparities</a>|
+||<a href="https://louisianacommercialrealty.com/2025/04/11/louisiana-commercial-realty-uncovers-loan-discrimination-in-new-orleans-housing/">Louisiana Commercial Realty Uncovers Loan Discrimination In New Orleans Housing</a>|
+||<a href="https://news.byu.edu/banks-offer-black-entrepreneurs-inferior-loans-even-when-they-are-better-qualified-than-peers">Banks offer Black entrepreneurs inferior loans even when they are better qualified than peers</a>|
 |Sliding door animation| By me + ChatGPT for debugging|
+
 
