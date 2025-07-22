@@ -21,6 +21,21 @@
         });
     };
 
+    const addBackgroundAndScale = (entries, observer) => {
+        entries.forEach((entry) => {
+            const elem = entry.target;
+            console.log(entry);
+
+            if (entry.intersectionRatio >= 0.9) {
+                elem.style.backgroundColor = "#DED9BC";
+                elem.style.transform = "scale(1.3)"; // scales up by 20%
+            } else if (entry.intersectionRatio < 0.9) {
+                elem.style.backgroundColor = "#888888";
+                elem.style.transform = "scale(1)"; // scales up by 20%
+            }
+        });
+    };
+
     let title ="A home and a future"
 
 
@@ -61,8 +76,8 @@
                 pay off other significant expenses in life. 
             </ObservedArticleText>
 
-            <ObservedArticleText callback={addBackground} {options}>
-                Everybody deserves a home that gives them comfort for the present, and a the foundation for the future.
+            <ObservedArticleText callback={addBackgroundAndScale} {options}>
+                Everybody deserves a home that gives them comfort for the present, and a foundation for the future.
             </ObservedArticleText>
           
         {/snippet}
